@@ -1,53 +1,61 @@
-# Employee Management CLI
+Employee Management System (CLI)
 
-## 1. Project Overview
-The Employee Management CLI is a Python-based command-line
-application used to manage employee records.
+Project Description
 
-## 2. Problem Statement
-Managing employee information manually can be difficult.
-This application helps users add, update, search, delete,
-and view employee records through a simple menu.
+The Employee Management System is a command-line application developed in Python. It allows users to manage employee records and perform basic employee-related operations through a menu-driven interface.
 
-## 3. Features
-- Add employee
-- Update employee
-- Delete employee
-- Search employee by ID
+Features
+
+- Add a new employee
+- Update employee details
+- Delete employee records
+- Search for an employee
 - List all employees
-- Find employee with the highest salary
-- Calculate average salary
+- Find the employee with the highest salary
+- Calculate the average salary
 - Filter employees by department
+- Exit the application
 
-## 4. Technology Stack
-- Python 3.13
+Technologies Used
+
+- Python 3
 - PyCharm IDE
+- Git and GitHub
 
-## 5. How to Run
-1. Open the project in PyCharm.
-2. Open main.py.
-3. Right-click in the editor.
-4. Select Run 'main'.
-5. Choose an option from the menu.
+Project Structure
 
-## 6. Data Storage
-Employee records are stored in memory while the application
-is running. The records are not retained after exiting.
+employee-management/
+├── main.py
+└── README.md
 
-## 7. Testing
-The application is tested using sample employee records.
-Each menu option should be checked before submission.
+Prerequisites
 
-## 8. Challenges and Solutions
-Challenge: Preventing duplicate employee IDs.
-Solution: Check whether the ID already exists before adding
-a new employee.
+- Python 3 installed on your computer
+- PyCharm or another Python-compatible editor
 
-Challenge: Handling invalid salary input.
-Solution: Use exception handling to validate numeric input.
+Setup and Installation
 
-## 9. Future Improvements
-- Store employee records in a JSON file.
-- Add automated unit tests.
-- Improve input validation.
--
+1. Download or clone this repository.
+2. Open the project folder in PyCharm.
+3. Ensure that Python 3 is configured as the project interpreter.
+4. Open the terminal in the project directory.
+
+How to Run Locally
+
+Run the following command in the terminal:
+
+python main.py
+
+If your system uses the Python launcher, you can also try:
+
+py main.py
+
+The Employee Management System menu will appear in the terminal. Enter the number corresponding to the operation you want to perform and follow the prompts.
+
+Usage
+
+Choose an option from the menu to add, update, delete, search, or list employees, analyze salary information, or filter employees by department. Select option 9 to exit the application.
+
+Author
+
+Student Developer
